@@ -8,7 +8,8 @@ from docx import Document
 from openai import AzureOpenAI
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_chroma import Chroma
-from langchain.schema import Document as LDocument
+# from langchain.schema import Document as LDocument
+from langchain_core.documents import Document as LDocument
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 

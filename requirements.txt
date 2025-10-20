@@ -1,10 +1,9 @@
 streamlit
-python-dotenv
-PyPDF2
-python-docx
-openai>=1.14.0
-langchain
+openai
+langchain-core
+langchain-community
 langchain-openai
 langchain-chroma
-chromadb
-tiktoken
+PyPDF2
+numpy
+scikit-learn
