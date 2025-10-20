@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+PyPDF2
+python-docx
+openai>=1.14.0
+langchain
+langchain-openai
+langchain-chroma
+chromadb
+tiktoken
